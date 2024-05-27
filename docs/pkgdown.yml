@@ -1,0 +1,7 @@
+pandoc: 3.1.1
+pkgdown: 2.0.9
+pkgdown_sha: ~
+articles:
+  AboutHealthmetrics: AboutHealthmetrics.html
+last_built: 2024-05-27T12:28Z
+

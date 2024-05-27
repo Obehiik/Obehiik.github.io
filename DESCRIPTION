@@ -1,0 +1,19 @@
+Package: Healthmetrics
+Title: Health Metrics Calculation and Classification Tools
+Version: 0.0.0.9000
+Authors@R: 
+    person("Obehi", "Ikpea", , "oikpea@uw.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: The Healthmetrics package provides functions for calculating 
+    and classifying various health metrics such as blood pressure categories, 
+    cholesterol levels, and Body Mass Index (BMI). It offers easy-to-use 
+    functions that prompt the user for necessary inputs and output the 
+    respective health classifications based on standard medical guidelines.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

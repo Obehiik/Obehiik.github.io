@@ -1,0 +1,92 @@
+---
+title: "About healthmetrics"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{About healthmetrics}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Introduction to healthmetrics
+
+'healthmetrics' is an R package designed to help users easily check and categorize their health metrics, such as blood pressure, cholesterol levels, and body mass index (BMI).
+
+## Installation
+
+To install, run the following code (in R):
+
+```r
+# install.packages
+install.packages("devtools")
+devtools::install_github("Obehiik/Obehiik.github.io")
+```
+
+After installation, you can load the package into the R session
+
+```r
+library(healthmetrics)
+```
+
+## Blood Pressure Category Checker
+
+The `BloodPressureCategory` function helps users determine their blood pressure category based on systolic and diastolic readings.
+
+### Example usage
+
+```r
+# Prompt user to enter systolic and diastolic blood pressure.
+# BloodPressureCategory()
+# Output:
+# Find out your Blood Pressure Category
+
+## User input
+# Enter your Systolic Blood Pressure (mmHg): 120
+# Enter your Diastolic Blood (mmHg): 90
+
+## Result
+#[1] "High blood pressure (Hypertension): STAGE 2"
+```
+
+## Body Mass Index (BMI) Calculator
+
+The `computeBMI` function calculates the user's BMI based on weight and height and classifies it into standard categories.
+
+### Example Usage
+
+To calculate the BMI for a person, you can use the `computeBMI` function. It will prompt the user to enter their weight in kilograms and their height in centimeters.
+
+```r
+# Prompt user to enter weight in kg, and height in cm
+# computeBMI()
+# Output:
+# Calculate your Body Mass Index
+# User Input
+# Enter your weight (kg): 120
+# Enter your height (cm): 190
+# Result
+# [1] "BMI: 33.24 <-> Obesity"
+```
+
+## Cholesterol Levels Checker
+
+The `cholesterol_levels` function helps users check their cholesterol levels and categorize them according to age-specific guidelines
+
+### Example Usage
+
+```r
+# Prompts user to enter age, LDL cholesterol, triglycerides, and HDL cholesterol
+# cholesterol_levels()
+# Output:
+# User input
+#Enter your age: 25
+#LDL Cholesterol (mg/dL): 150
+#Triglycerides (mg/dL): 120
+#HDL Cholesterol (mg/dL): 55
+
+# Result
+#[1] "The total cholesterol is: 229 mg/dL"
+#[1] "The non-HDL cholesterol is: 174 mg/dL"
+#[1] "The HDL cholesterol is: 55 mg/dL"
+#[1] "The LDL cholesterol is: 150 mg/dL"
+#[1] "High"
+```
