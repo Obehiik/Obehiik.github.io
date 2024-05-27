@@ -1,0 +1,10 @@
+url: https://obehiik.github.io/
+template:
+  bootstrap: 5
+   theme: breeze-light
+  bslib:
+    version: 5
+    bootswatch: Darkly
+    base_font: {google: "Roboto"}
+    heading_font: {google: "Roboto Slab"}
+    code_font: {google: "JetBrains Mono"}
