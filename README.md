@@ -9,23 +9,24 @@
 ---
 
 ## Summary
-I am a passionate biostatistician and data scientist with experience in **statistical analysis**, **predictive modeling**, and **healthcare analytics**. Proficient in **R**, **SQL**, and **SAS**, with hands-on expertise in longitudinal and survival data analysis. I excel at deriving actionable insights from complex datasets through effective documentation, visualization, and collaboration.
+I am a **Master’s candidate in Biostatistics**, passionate about **statistical modeling**, **healthcare analytics**, and **data-driven decision making**. My academic and research experiences focus on analyzing complex datasets, conducting reproducible research, and communicating actionable insights in public health and clinical settings.
 
 ---
 
 ## Skills
 
 - **Programming & Tools:**  
-  - R (Data Wrangling, Visualization)  
+  - R 
   - SQL  
-  - SAS (Statistical Analysis)  
+  - SAS   
   - Tidyverse, ggplot2, Quarto, R Markdown  
 
 - **Statistical Methods:**  
   - Regression Analysis  
   - Longitudinal Data Analysis  
   - Survival Analysis  
-  - Model Diagnostics & Sensitivity Analysis  
+  - Model Diagnostics & Sensitivity Analysis
+  - Machine Learning  
 
 - **Version Control & Collaboration:**  
   - Git & GitHub for code management and collaborative projects  
