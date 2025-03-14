@@ -1,13 +1,18 @@
 # Site settings
-title: "Obehi Ikpea - Biostatistics Master's Candidate"
-description: "Data Scientist | Biostatistics | Healthcare Analytics"
+title: "Obehi Ikpea - Projects"
+description: "A showcase of data science and biostatistics projects."
 url: "https://obehiik.github.io"  # Your production URL
 baseurl: ""  # Leave empty if publishing at the root
 
 # Theme configuration
+# You can use a Bootswatch theme like 'cosmo' by referencing it in your custom CSS or using a compatible Jekyll theme
 theme: jekyll-theme-minimal
 
-# Navigation settings (if supported by your theme)
+# Custom settings to mimic Quarto style
+sass:
+  style: compressed
+
+# Navigation (if supported by your theme)
 nav:
   - title: "Home"
     url: "/"
@@ -18,29 +23,22 @@ nav:
   - title: "Contact"
     url: "/contact/"
 
-# Social media and contact information
+# Social and metadata
 social:
   linkedin: "https://linkedin.com/in/obehi-ikpea-7b860a1b9/"
   github: "https://github.com/Obehiik"
   portfolio: "https://obehiikpea.quarto.pub/obehi-winnifred-ikpeas-data-science-portfolio/"
   email: "ikpeaobehi3@gmail.com"
 
-# Google Analytics (optional – replace UA-XXXXXXXX-X with your tracking ID)
-google_analytics: "UA-XXXXXXXX-X"
-
-# Plugins for enhanced functionality
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Markdown settings
+# Markdown configuration
 markdown: kramdown
 kramdown:
   input: GFM
 
 # Permalink structure for cleaner URLs
 permalink: pretty
-
-# Pagination (optional)
-paginate: 5
-paginate_path: "/page:num/"
