@@ -1,7 +1,3 @@
----
-layout: default
-title: Home
----
 
 # Obehi Ikpea
 **Biostatistics Master's Candidate** at the University of Washington
