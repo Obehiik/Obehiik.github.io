@@ -18,7 +18,7 @@ I am a **Master’s candidate in Biostatistics**, passionate about **statistical
 - **Programming & Tools:**  
   - R 
   - SQL  
-  - SAS   
+  - SAS Base and Enterprise Guide  
   - Tidyverse, ggplot2, Quarto, R Markdown  
 
 - **Statistical Methods:**  
