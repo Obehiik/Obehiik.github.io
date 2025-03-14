@@ -1,4 +1,46 @@
-# add the following to _config.yml file
-title: Obehi Winnifred Ikpea
+# Site settings
+title: "Obehi Ikpea - Biostatistics Master's Candidate"
+description: "Data Scientist | Biostatistics | Healthcare Analytics"
+url: "https://obehiik.github.io"  # Your production URL
+baseurl: ""  # Leave empty if publishing at the root
+
+# Theme configuration
 theme: jekyll-theme-minimal
 
+# Navigation settings (if supported by your theme)
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "About"
+    url: "/about/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Social media and contact information
+social:
+  linkedin: "https://linkedin.com/in/obehi-ikpea-7b860a1b9/"
+  github: "https://github.com/Obehiik"
+  portfolio: "https://obehiikpea.quarto.pub/obehi-winnifred-ikpeas-data-science-portfolio/"
+  email: "ikpeaobehi3@gmail.com"
+
+# Google Analytics (optional – replace UA-XXXXXXXX-X with your tracking ID)
+google_analytics: "UA-XXXXXXXX-X"
+
+# Plugins for enhanced functionality
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Permalink structure for cleaner URLs
+permalink: pretty
+
+# Pagination (optional)
+paginate: 5
+paginate_path: "/page:num/"
