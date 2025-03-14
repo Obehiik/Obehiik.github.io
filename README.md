@@ -1,5 +1,4 @@
 
-# Obehi Ikpea
 **Biostatistics Master's Candidate** at the University of Washington
 
 I’m a passionate biostatistics student focused on statistical modeling, healthcare analytics, and data-driven insights. I work primarily with R, SQL, and SAS, and enjoy turning complex data into actionable results.
